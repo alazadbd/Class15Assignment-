@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.production::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.full-website{
+    width: 100%;
+}
+/* nav menu section */
+.navmenu-container {
+	width: 100%;
+	height: 90px;
+	background-color: #22C3A3;
+}
+/* logo section */
+.logo h2 {
+	font-size: 30px;
+	text-align: left;
+	color: white;
+	padding: 20px 50px;
+	padding-top: -3px;
+}
+/* logo end */
+.navmenu ul {
+	text-align: center;
+	margin: -40px 0px 0px 720px;
+}
+.navmenu ul li{
+    display: inline-block;
+}
+.navmenu ul li a {
+	text-decoration: none;
+	padding: 10px;
+	color: #ddd;
+	text-transform: uppercase;
+	font-size: 15px;
+	transition: .3s ease-in-out;
+}
+.navmenu ul li a:hover{
+	color: #17997d;
+}
+/* nav menu section end */
+/* banner section start */
+.banner{
+	width: 100%;
+	height: 553px;
+	background-image: url(https://iili.io/Hgi0jSe.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+.banner-div {
+	text-align: center;
+	padding: 100px;
+	color: #fff;
+}
+.banner h1 {
+	font-size: 55px;
+	text-transform: uppercase;
+}
+.banner p {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.banner .btn {
+	padding: 40px;
+	
+	
+}
+.banner .btn a {
+	text-decoration: none;
+	display: inline-block;
+	width: 176px;
+	height: 50px;
+	background-color: #0BBF9A;
+	line-height: 51px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	border: 2px solid #fff;
+	transition: .3s;
+	border-radius: 5px;
+}
+.banner .btn a:hover{
+	background-color: #06836a;
+}
+/* banner section end */
+/* service section */
+.service-container{
+	width: 100%;
+	height: 600px;
+	border-bottom: 2px solid #0BBF9A;
+}
+.service-heading {
+	text-align: center;
+	color: #000;
+	margin: 130px;
+}
+.service-heading h2 {
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+.production {
+	float: left;
+	text-align: center;
+	width: 250px;
+	height: 150px;
+	padding: 70px 0px 0px 70px;
+}
+.production a{
+	font-size: 40px;
+	color: #0BBF9A;
+}
+.production h2 {
+	padding: 30px 0px 10px 0px;
+}
+/* service section end */
+	/* about heading */
+.about-heading {
+	text-align: center;
+	padding: 50px;
+	
+}
+.about-heading h2{
+	margin: 30px;
+	font-size: 35px;
+}
+
+	/* about-heading end */
+	/* float slider */
+.about-slider{
+	position: relative;
+	margin-bottom: 10px;
+}
+.float-slider {
+	width: 600px;
+	height: 200px;
+	position: absolute;
+	top: 0px;
+	left: 679px;
+}
+.photo img {
+	width: 550px;
+	height: 350px;
+	margin-left: 100px;
+}
+.float-slider .slider {
+	margin-bottom: 30px;
+}
+.slider h2{
+	margin-bottom: 5px;
+}
+.about-container{
+	margin-bottom: 100px;
+}
+	/* float slider end */
+/* Contact section start */
+.contact-container {
+	width: 100%;
+	height: 500px;
+	background-color: #ddd;
+	padding: 1px;
+}
+.contact-heading{
+	text-align: center;
+	color: #000;
+	margin: 130px;
+}
+.contact-heading h2{
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+.contact-item{
+	margin-left: 75px;
+}
+.common-contact::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.common-contact {
+	width: 200px;
+	height: 150px;
+	text-align: center;
+	/* padding: 5px; */
+	float: left;
+	/* padding: 10px; */
+	margin: 100px;
+	margin-top: 0px;
+	/* margin-left: 54px; */
+}
+.common-contact i{
+	color: #0BBF9A;
+	font-size: 20px;
+}
+/* Contact section end */
+/* social menu section */
+.social-menu {
+	width: 100%;
+	height: 80px;
+	background-color: #0BBF9A;
+	float: left;
+	text-align: center;
+	margin-top: -88px;
+}
+.social-menu::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+.social-menu i {
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+	line-height: 65px;
+	transition: .3s;
+}
+.social-menu i.fb:hover{
+	transform: rotate(360deg);
+}
+.social-menu i.tw:hover{
+	transform: scale(1.5);
+}
+.social-menu i.gb:hover{
+	transform: skew(10deg, 20deg);
+}
+.social-menu i.yt:hover{
+	transform: rotate(30deg);
+}
+.social-menu i.ins:hover{
+	transform: scale(1.5);
+}
+.social-menu i.lin:hover{
+	transform: rotate(360deg);
+}
+/* social menu section end */
